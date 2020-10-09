@@ -182,10 +182,11 @@
 
     <TableLayout
         android:id="@+id/table"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/img"
         android:layout_marginTop="5pt"
+        android:layout_centerHorizontal="true"
         android:stretchColumns="*">
         <TableRow>
             <TextView
@@ -226,7 +227,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/header_style"
-                android:text="@string/rbTemp"
+                android:text="@string/rbDist"
                 android:padding="5dp"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"/>
@@ -259,7 +260,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/header_style"
-                android:text="@string/rbTemp"
+                android:text="@string/rbWeight"
                 android:padding="5dp"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"/>
@@ -282,7 +283,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/cell_style"
-                android:text="2.2046 Pound"
+                android:text="2.2046 pound"
                 android:padding="5dp"/>
         </TableRow>
     </TableLayout>
